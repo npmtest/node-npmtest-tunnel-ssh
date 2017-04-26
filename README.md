@@ -1,6 +1,6 @@
 # npmtest-tunnel-ssh
 
-#### basic test coverage for  tunnel-ssh (v4.1.2)  [![npm package](https://img.shields.io/npm/v/npmtest-tunnel-ssh.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tunnel-ssh) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tunnel-ssh.svg)](https://travis-ci.org/npmtest/node-npmtest-tunnel-ssh)
+#### basic test coverage for  [tunnel-ssh (v4.1.2)](https://github.com/agebrock/tunnel-ssh#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-tunnel-ssh.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tunnel-ssh) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tunnel-ssh.svg)](https://travis-ci.org/npmtest/node-npmtest-tunnel-ssh)
 
 #### Easy extendable SSH tunnel
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-tunnel-ssh/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-tunnel-ssh/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-tunnel-ssh/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-tunnel-ssh/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tunnel-ssh/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tunnel-ssh/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-tunnel-ssh/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-tunnel-ssh/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tunnel-ssh/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tunnel-ssh/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-tunnel-ssh/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-tunnel-ssh/build/coverage.html/index.html)
 
@@ -35,38 +35,28 @@
 ```json
 
 {
-    "name": "tunnel-ssh",
-    "version": "4.1.2",
-    "description": "Easy extendable SSH tunnel",
-    "main": "index.js",
-    "scripts": {
-        "test": "mocha && eslint ."
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/agebrock/tunnel-ssh"
-    },
-    "keywords": [
-        "tunnel",
-        "ssh",
-        "mysql",
-        "develop",
-        "net"
-    ],
     "author": {
         "name": "Christoph Hagenbrock"
     },
-    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/agebrock/tunnel-ssh/issues"
+    },
     "dependencies": {
         "debug": "2.6.0",
         "lodash.defaults": "^4.1.0",
         "ssh2": "0.5.4"
     },
+    "description": "Easy extendable SSH tunnel",
     "devDependencies": {
         "chai": "3.5.0",
         "eslint": "^3.2.2",
         "eslint-config-xo": "^0.17.0",
         "mocha": "^3.0.2"
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "adb0c0c96b1efed78de4a874da90f51e544df10f",
+        "tarball": "https://registry.npmjs.org/tunnel-ssh/-/tunnel-ssh-4.1.2.tgz"
     },
     "eslintConfig": {
         "extends": "xo",
@@ -79,7 +69,34 @@
                 4
             ]
         }
-    }
+    },
+    "gitHead": "86002046e47d7369e68630d3337d51b9c53dd984",
+    "homepage": "https://github.com/agebrock/tunnel-ssh#readme",
+    "keywords": [
+        "tunnel",
+        "ssh",
+        "mysql",
+        "develop",
+        "net"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "agebrock"
+        }
+    ],
+    "name": "tunnel-ssh",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/agebrock/tunnel-ssh.git"
+    },
+    "scripts": {
+        "test": "mocha && eslint ."
+    },
+    "version": "4.1.2",
+    "bin": {}
 }
 ```
 
